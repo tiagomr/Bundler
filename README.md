@@ -19,3 +19,7 @@ Bundler.toBundle(params, "ObjectABC", oneObject);
 MyObject anotherObject = Bundler.fromBundle(params, "ObjectABC", aux);
 
 //Done :D
+
+
+//TODO
+Currently Bundler will not be able to store Lists, this will be implemented in the near future
